@@ -1,15 +1,15 @@
 # Care4PlantApp
 
-## Descripción:
+## Description:
 
-*Care4PlantApp* está compuesta por:
+*Care4PlantApp* is composed of:
 
-- *Frontend*: Aplicación móvil desarrollada en Flutter.
-- *Backend*: API RESTful desarrollada en ASP.NET Core, encargada de gestionar autenticación, usuarios y actividades.
+- *Frontend*: Mobile application developed in Flutter.
+- *Backend*: RESTful API developed in ASP.NET Core, responsible for managing authentication, users, and activities.
 
 ---
 
-## Tecnologías:
+## Technologies:
 
 - *Frontend*:
   - Flutter v3.10.0
@@ -19,28 +19,28 @@
   - .NET 7+
   - C# v11
   - Entity Framework Core (EF Core)
-  - Base de Datos: PostgresSQL >v15
-  - API RESTful
-  - Recursos estáticos servidos desde wwwroot/
+  - Database: PostgreSQL >v15
+  - RESTful API
+  - Static resources served from wwwroot/
 
 ---
 
-## Compilación:
+## Build Instructions:
 
 ### Frontend (Flutter)
 
 ```bash
-git clone https://github.com/tu_usuario/Care4Plant-App.git
+git clone https://github.com/your_user/Care4Plant-App.git
 cd server
-dotnet run # Para ejecutar la API
+dotnet run # To run the API
 cd Care4Plant-App/app
 flutter pub get
-flutter build apk   # Para compilar en Android
+flutter build apk   # To build for Android
 ```
 
 ### Backend (.NET)
-
 ```bash
 git clone https://github.com/tu_usuario/Care4Plant-App.git
 cd server
-dotnet run # Para ejecutar la API
+dotnet run # To run the API
+

@@ -1,0 +1,18 @@
+[
+    {
+        "family": "Segoe UI",
+        "fonts": [
+            {
+                "asset": "assets/fonts/Muli-Bold.tff"
+            },
+            {
+                "asset": "assets/fonts/SegoeUI-SemiBold.ttf",
+                "weight": 600
+            },
+            {
+                "asset": "assets/fonts/SegoeUI-Bold.ttf",
+                "weight": 700
+            }
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+<svg id="undraw_social_tree_1_y9wa_1_" data-name="undraw_social_tree_1_y9wa (1)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49.493" height="49.493" viewBox="0 0 49.493 49.493">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
+      <stop offset="0.54" stop-color="gray" stop-opacity="0.122"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Path_3381" data-name="Path 3381" d="M38.084,17.458H20.679v7.3H30.7c-.934,4.637-4.84,7.3-10.019,7.3a11.165,11.165,0,0,1,0-22.328,10.724,10.724,0,0,1,6.877,2.49l5.434-5.5A18.474,18.474,0,0,0,20.679,2,18.733,18.733,0,0,0,2,20.893,18.733,18.733,0,0,0,20.679,39.786c9.339,0,17.83-6.87,17.83-18.893A15.844,15.844,0,0,0,38.084,17.458Z" transform="translate(-2 -2)"/>
+    </clipPath>
+  </defs>
+  <circle id="椭圆_111" data-name="椭圆 111" cx="24.746" cy="24.746" r="24.746" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+  <g id="_1534129544" data-name="1534129544" transform="translate(4.788 4.036)">
+    <g id="Group_1866" data-name="Group 1866" transform="translate(2 2)" clip-path="url(#clip-path)">
+      <path id="Path_3380" data-name="Path 3380" d="M0,33.328V11L14.434,22.164Z" transform="translate(-1.698 -3.271)" fill="#fbbc05"/>
+    </g>
+    <g id="Group_1867" data-name="Group 1867" transform="translate(2 2)" clip-path="url(#clip-path)">
+      <path id="Path_3382" data-name="Path 3382" d="M0,9.446,14.434,20.61l5.943-5.238,20.377-3.349V0H0Z" transform="translate(-1.698 -1.718)" fill="#ea4335"/>
+    </g>
+    <g id="Group_1868" data-name="Group 1868" transform="translate(2 2)" clip-path="url(#clip-path)">
+      <path id="Path_3384" data-name="Path 3384" d="M0,31.774,25.471,12.023l6.707.859L40.754,0V41.221H0Z" transform="translate(-1.698 -1.718)" fill="#34a853"/>
+    </g>
+    <g id="Group_1869" data-name="Group 1869" transform="translate(2 2)" clip-path="url(#clip-path)">
+      <path id="Path_3386" data-name="Path 3386" d="M42.716,42.774,16.4,22.164,13,19.588,42.716,11Z" transform="translate(-3.661 -3.271)" fill="#4285f4"/>
+    </g>
+  </g>
+</svg>

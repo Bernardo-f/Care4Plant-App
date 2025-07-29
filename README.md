@@ -87,18 +87,41 @@ lib/
 
 ### Frontend (Flutter)
 
+
 ```bash
-git clone https://github.com/your_user/Care4Plant-App.git
+# Clone the repository from GitHub
+git clone https://github.com/Bernardo-f/Care4Plant-App.git
+
+# Navigate to the backend folder to run the API (required for app functionality)
 cd server
-dotnet run # To run the API
+dotnet run  # Starts the ASP.NET Core backend API
+
+# Go to the Flutter app directory
 cd Care4Plant-App/app
+
+# Install Flutter dependencies
 flutter pub get
-flutter build apk   # To build for Android
+
+# Build the Android APK (can be installed on any Android device)
+flutter build apk
 ```
 
 ### Backend (.NET)
+
 ```bash
-git clone https://github.com/tu_usuario/Care4Plant-App.git
+# Clone the repository
+git clone https://github.com/Bernardo-f/Care4Plant-App.git
 cd server
-dotnet run # To run the API
+
+# Restore dependencies
+dotnet restore
+
+# (Optional) Create a local configuration file if needed
+# e.g., appsettings.Development.json with your PostgreSQL connection string
+
+# Apply existing EF Core migrations to create or update the database
+dotnet ef database update
+
+# Run the backend API
+dotnet run
 

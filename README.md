@@ -5,12 +5,33 @@ Care4Plant is a multilingual mobile application developed to support the emotion
 
 ## Main Features
 
--  **Virtual Plant**: Represents the caregiver’s emotional state and evolves based on user interaction.
--  **Stress Level Test**: Short test based on the Zarit Burden Interview (ZBI) to assess caregiver stress.
--  **Care Center**: Offers relaxing activities and guided content (e.g., music, mindful texts).
--  **Multilingual Interface**: Available in English, Spanish, and Welsh.
--  **User-Centered Interface**: Designed for simplicity and accessibility.
--  **Greenhouse (Community)**: Optional space to anonymously share reflections with other users.
+- **Multilingual Interface**: Available in English, Spanish, and Welsh.
+
+- **Virtual Plant**: Represents the caregiver’s emotional state and evolves based on user interaction.
+
+<div align="center">
+  <img src="screenshots/MyPlant-EN-1.png" alt="MyPlant" width="250"/>
+</div>
+
+- **Stress Level Test**: Short test based on the Zarit Burden Interview (ZBI) to assess caregiver stress.
+
+<div align="center">
+  <img src="screenshots/StreesTest-CY-2.png" alt="Stress Test" width="250"/>
+</div>
+
+- **Care Center**: Offers relaxing activities and guided content (e.g., music, mindful texts).
+
+<div align="center">
+  <img src="screenshots/CareCenter-ES-1.png" alt="Care Center ES" width="250"/>
+  <img src="screenshots/CareCenter-EN-5.png" alt="Care Center EN" width="250"/>
+</div>
+
+- **Greenhouse (Community)**: Optional space to anonymously share reflections with other users.
+
+<div align="center">
+  <img src="screenshots/Greenhouse-EN-1.png" alt="Greenhouse EN" width="250"/>
+  <img src="screenshots/Greenhouse-CY-2.png" alt="Greenhouse CY" width="250"/>
+</div>
 
 
 

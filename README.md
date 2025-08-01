@@ -80,6 +80,27 @@ lib/
 └── main.dart # Application entry point
 
 ```
+## Technical Implementation Details
+
+The mobile application has been developed using Flutter, a cross-platform framework based on the Dart programming language. The source code is structured following a layered architecture, distributed mainly across three folders: ui, domain, and data.
+
+The ui folder contains all elements related to the visual presentation of the application, including views, reusable components, and navigation logic.
+The domain folder represents the core business logic. It defines entities, repository interfaces, and use cases that encapsulate the specific logic for each functionality.
+The data folder implements data access mechanisms, whether from local sources (e.g., device storage) or remote sources (such as RESTful APIs).
+
+Complementing these layers, the project includes a core folder that groups reusable cross-cutting services throughout the application. These services include notification handling, local storage, user authentication, and server connectivity.
+Among the most relevant dependencies used in the project are:
+
+flutter_localizations: for multilingual support,
+flutter_svg: for displaying vector graphics in SVG format,
+get_it: for implementing the dependency injection pattern.
+
+Some key files within the source code include:
+
+injection_container.dart, which centralizes the configuration and initialization of application dependencies;
+.env.dart.example, which provides an example file with configuration parameters such as server URL and notification options.
+
+The application entry point is located in the main.dart file, where essential services such as localization configuration, storage, and authentication are initialized. From this initialization, the user's session state is evaluated to determine whether the authentication screen should be presented or navigate directly to MyPlant in the application.
 
 ---
 

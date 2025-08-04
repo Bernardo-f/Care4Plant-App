@@ -55,7 +55,7 @@ Care4Plant is a multilingual mobile application developed to support the emotion
 
 ## Mobile App Architecture
 
-Care4Plant adopts a **Clean Architecture** approach, organized by layers: `core`, `data`, `domain`, and `presentation`. This structure promotes modularity, testability, and separation of concerns.
+Care4Plant adopts a **Clean Architecture** approach, organized by layers: `data`, `domain`, and `ui`. This structure promotes modularity, testability, and separation of concerns.
 
 
 ``` text

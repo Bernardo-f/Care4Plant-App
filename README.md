@@ -101,7 +101,7 @@ Among the most relevant dependencies used in the project are:
 
 Some key files within the source code include:
 
-* injection_container.dart, which centralizes the configuration and initialization of application dependencies;
+* injection_container.dart, which centralizes the configuration and initialization of application dependencies.
 
 * .env.dart.example, which provides an example file with configuration parameters such as server URL and notification options.
 

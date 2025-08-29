@@ -1,7 +1,7 @@
 # Care4PlantApp
 
 ## Description:
-Care4Plant is a multilingual mobile application developed to support the emotional well-being of informal caregivers. Unlike existing caregiver apps that focus primarily on patient-related tasks, Care4Plant centers entirely on the caregiver. It uses a virtual plant metaphor to represent users' stress levels and emotional states. The application encourages self-care through mood tracking, guided activities, and community interaction, and is currently available in Spanish, English, and Welsh. A two-week preliminary study involving nine users indicated high usability and user engagement, particularly through the plant-based metaphor and personalized well-being recommendations.
+Care4Plant is a multilingual mobile application developed to support the emotional well-being of informal caregivers. Unlike existing caregiver apps that focus primarily on patient-related tasks, Care4Plant centers entirely on the caregiver. It uses a virtual plant metaphor to represent users' stress levels and emotional states. The application encourages self-care through mood tracking, guided activities, and community interaction, and is currently available in Spanish, English, and Welsh. A two-week preliminary study involving nine users indicated acceptable usability levels and user engagement, particularly through the plant-based metaphor and personalized well-being recommendations.
 
 ## Main Features
 
@@ -13,7 +13,7 @@ Care4Plant is a multilingual mobile application developed to support the emotion
   <img src="screenshots/MyPlant-EN-1.png" alt="MyPlant" width="250"/>
 </div>
 
-- **Stress Level Test**: Short test based on the Zarit Burden Interview (ZBI) to assess caregiver stress.
+- **Stress Level Test**: Seven questions pertaining to the emotional well-being domain from the Zarit Burden Interview (ZBI) questionnaire.
 
 <div align="center">
   <img src="screenshots/StreesTest-CY-2.png" alt="Stress Test" width="250"/>
@@ -55,7 +55,7 @@ Care4Plant is a multilingual mobile application developed to support the emotion
 
 ## Mobile App Architecture
 
-Care4Plant adopts a **Clean Architecture** approach, organized by layers: `data`, `domain`, and `ui`. This structure promotes modularity, testability, and separation of concerns.
+Care4Plant adopts a **Clean Architecture** approach, organized in three layers: `data`, `domain`, and `ui`. This structure promotes modularity, testability, and separation of concerns.
 
 
 ``` text
@@ -91,7 +91,7 @@ The mobile application has been developed using Flutter, a cross-platform framew
 * The data folder implements data access mechanisms, whether from local sources (e.g., device storage) or remote sources (such as RESTful APIs).
 
 Complementing these layers, the project includes a core folder that groups reusable cross-cutting services throughout the application. These services include notification handling, local storage, user authentication, and server connectivity.
-Among the most relevant dependencies used in the project are:
+The most relevant dependencies used in the project are the following:
 
 * flutter_localizations: for multilingual support.
 
